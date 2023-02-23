@@ -1,0 +1,52 @@
+.container:not(#about .count .container) {
+  width: 72%;
+}
+
+.container .links li {
+  padding: 38px 10px;
+}
+
+.links li a {
+  font-size: 10px;
+  padding: 38px 13px;
+}
+
+.container .logo img {
+  width: 85px;
+}
+
+.container .greet {
+  padding: 40px 30px 60px 12%;
+}
+
+header .greet h2 {
+  font-size: 20px;
+}
+
+header .greet p {
+  font-size: 10px;
+}
+
+header .left,
+header .right {
+  display: none;
+}
+
+#portfoli figure:hover .plus img {
+  top: 25%;
+}
+
+#about .count .container {
+  flex-wrap: wrap;
+}
+
+#about .count .container div {
+  width: 50%;
+}
+
+#pricing .container .basic,
+#pricing .container .premium,
+#pricing .container .pro,
+#pricing .container .plat {
+  width: calc(50% - 40px);
+}
